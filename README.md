@@ -29,3 +29,8 @@ Create a visualization dashboard website using visualizations from weather data.
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 * Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
 
+# Bonus
+* Use a different dataset! The requirements above still hold, but make it your own.
+* Use a Bootstrap theme (and tool like Bootswatch) to customize your website, and add extra visualizations.
+* Use meaningful glyphicons next to links in the header.
+* Have visualization navigation on every visualizations page with an active state.
