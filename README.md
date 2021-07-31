@@ -3,21 +3,21 @@
 ## Instructions
 Create a visualization dashboard website using visualizations from weather data. In building this dashboard, create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-## 1. Landing Page
+## 1. [**Landing Page**](index.html)
 * An explanation of the project.
 * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
 
-## 2. Visualization Pages (4)
-* A descriptive title and heading tag.
+## 2. [**Visualization Page**](maxtemp.html)
+* A descriptive title and heading tag. (max temperature, cloudiness, humidity, and wind speed)
 * The plot/visualization itself for the selected comparison.
 * A paragraph describing the plot and its significance.
 
-## 3. Comparison Page
+## 3. [**Comparison Page**](comparison.html)
 * Contains all of the visualizations on the same page so we can easily visually compare them.
 * Uses a Bootstrap grid for the visualizations.
 * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
-## 4. Data Page
+## 4. [**Data Page**](data.html)
 * Displays a responsive table containing the data used in the visualizations.
 * The table must be a bootstrap table component.
 * The data must come from exporting the .csv file as HTML, or converting it to HTML. 
