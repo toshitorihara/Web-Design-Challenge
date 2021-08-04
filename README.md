@@ -4,11 +4,11 @@
 Create a visualization dashboard website using visualizations from [**weather data**](https://github.com/toshitorihara/python-api-challenge). In building this dashboard, create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### 1. [**Landing Page**](index.html)
-* An explanation of the project.
-* Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+* An explanation of the project with links to each visualization page.
+* There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
 
-### 2. [**Visualization Page**](maxtemp.html)
-* A descriptive title and heading tag. (max temperature, cloudiness, humidity, and wind speed)
+### 2. **Visualization Pages**
+* A descriptive title and heading tag: [**max temperature**](max_temperature.html), [**cloudiness**](cloudiness.html), [**humidity**](humidity.html), and [wind speed](wind_speed.html)
 * The plot/visualization itself for the selected comparison.
 * A paragraph describing the plot and its significance.
 
@@ -28,7 +28,6 @@ Create a visualization dashboard website using visualizations from [**weather da
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
 * Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
-
 ---
 ### Bonus
 * Use a different dataset! The requirements above still hold, but make it your own.
