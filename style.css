@@ -1,0 +1,131 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font: Arial;
+}
+
+.navigation {
+    color: white;
+    font-family: sans-serif;
+    background-color: #0BADA6;
+    font-weight: bold;
+    padding: inherit;
+}
+
+.navigation .navbar-brand {
+    color: white;
+    font-family: Verdana;
+    font-size: 30px;
+    background-color: #0BADA6;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    max-height: 70px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.dropdown-item{
+    color: #6D8092; 
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:white; 
+}
+
+.navigation .nav-link:hover{
+    background-color:white;
+   }
+
+.navigation .navbar-brand:hover{
+    color: rgb(200, 248, 246);
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-fluid:hover{
+    border-color: #0BADA6;
+    border-style: solid;
+}
+
+.image-active {
+    border-color:#0BADA6;
+    border-style: solid; 
+}
+
+.visualization{
+    width: 50%;
+    height: 50%;
+}
+
+.title {
+    color: #0BADA6;  
+    font: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+    padding-top: 25px; 
+}
+
+p {
+    color: #6D8092;
+    font: Arial;
+    font-size: 18px; 
+}
+
+.box {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 10px 20px 15px;
+    color: black;
+    background-color: white;
+}
+
+.table-responsive {
+    font: Arial;
+}
+
+@media(max-width: 992px){
+    .navbar-light{
+        background-color: #0BADA6;
+    }  */
+
+    * .navbar-brand {
+        color: white;
+        font-size: 30px;
+        background-color: #0BADA6;
+        padding: 10px;
+    }
+
+    .navbar{
+        background-color: #0BADA6;
+        max-height: none; 
+        padding: inherit;
+    }
+
+    .container{
+    background-color: white;
+    }
+    
+    .navigation .nav-link:hover{
+        background-color:#0bada6;
+    }
+
+    .navigation .navbar-brand:hover{
+        color: #0bada6;
+    }
+}
