@@ -32,7 +32,7 @@ Create a visualization dashboard website using visualizations from [**weather da
 * With name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-* Using media queries via [**CSS**](style.css) to make responsive behaviors i.e. change background color at smaller size screen.
+* Using media queries via [**.css file**](style.css) to make responsive behaviors i.e. change background color when screen is smaller.
 ---
 ### Bonus
 * Use a different dataset! The requirements above still hold, but make it your own.
